@@ -4,10 +4,12 @@ window.onload=()=>{
         let refreshRate = document.querySelector('#refreshRate');
         let refreshrate = refreshRate.value || 1500;
         if(!zipList.value){alert('Please enter at least one zip code!'); return false;}
-m2c({ziplist:zipList.value, refreshrate})
+m2c({ziplist:zipList.value, refreshrate});
+        document.querySelector('#heart').style.display='';
     })
 
     getmeToTheCurrentURL();
+
 }
 
 

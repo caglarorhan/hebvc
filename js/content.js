@@ -16,3 +16,7 @@ let refreshrate = parseInt(request.refreshrate);
     window.setInterval(lookUp,refreshrate);
 
 });
+
+window.addEventListener('load',()=>{
+
+})
