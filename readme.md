@@ -1,0 +1,5 @@
+- Setup hebvc extension
+- goto https://vaccine.heb.com/scheduler url
+- open HEBvc and insert zip/s (comma separated) and look up.
+- first zip that found slot has opened and yours.
+- interval is 2 second to be justice and not to be blocked by cloudflare or S3! 
