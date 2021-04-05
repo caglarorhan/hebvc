@@ -24,14 +24,12 @@
       ]
     }
   ],
-  "background": {
-    "scripts": ["./js/background.js"],
-    "persistent": false
-  },
   "permissions": [
     "https://*.heb.secure.force.com/*"
   ],
   "web_accessible_resources": [
-    "./js/content.js"
+    "./js/content.js",
+    "sounds/carhorn.mp3",
+    "carhorn.mp3"
   ]
 }

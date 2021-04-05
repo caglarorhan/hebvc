@@ -73,9 +73,10 @@
 </head>
 <body>
 <h3 style="color: red">HEB Vaccine Checker</h3>
-<b>Only comma separated zips</b><textarea type="text" title="virgulle ayrilmis zipler giriniz" id="zipList"></textarea>
-Refresh rate: <input type="number" size="5" placeholder="00000" id="refreshRate" title="Default is 1500">
-<button id="zipMes" title="Be ready when page redirected to appointment page!">LookUp</button>
+<div><b>Only comma separated zips</b><textarea type="text" title="Insert comma separated zips" id="zipList"></textarea></div>
+<div>Filter By:<br> openTimeslots<input type="radio" value="openTimeslots" name="filterBy" checked="checked">, URL<input type="radio" value="url" name="filterBy"></div>
+Refresh rate: <input type="number" size="4" placeholder="00000" id="refreshRate" title="Default is 1500, min:100 - max: 9999" style="width:5em" min="100" max="9999">
+<div><button id="zipMes" title="Be ready when page redirected to appointment page!" style="display:flex">LookUp</button></div>
 <div id="heart" style="display: none"></div>
 <script src="js/popup.js"></script>
 </body>
